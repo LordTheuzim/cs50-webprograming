@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+  <head>
+    <meta charset="utf-8">
+    <title>Advanced Search</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+
+  <body>
+    <div class="superiorpanel">
+      <a href="imagesearch.html">Image Search</a>
+      <a href="index.html">Good Search</a>
+    </div>
+    <div class="midpanel" style="left: 500px;">
+      <img src="Good_Search.png" alt="Logo" width="300">
+    </div>
+    <div class="advacedpanel">
+      <form action="https://www.google.com/search" method="GET">
+
+        <div class="allthesewords">
+          <label for="textallthesewords">All these words</label>
+          <input type="text" id="textallthesewords"name="as_q">
+        </div>
+
+        <div class="thisphrase">
+          <label for="textthisphrase">Exactly this phrase</label>
+          <input type="text" id="textthisphrase" name="as_epq">
+        </div>
+
+        <div class="anythiswords">
+          <label for="textanythiswords">Any of This words</label>
+          <input type="text" id="textanythiswords" name="as_oq">
+        </div>
+
+        <div class="nonethiswords">
+          <label for="textnonethis">None of this words</label>
+          <input type="text" id="textnonethis" name="as_eq">
+        </div>
+
+        <input type="submit" class="bluebutton" name="tbs" value="Advanced Search">
+
+      </form>
+
+    </div>
+
+  </body>
+</html>
